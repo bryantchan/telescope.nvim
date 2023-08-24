@@ -328,7 +328,7 @@ do
 
         local display, hl_group, icon = utils.transform_devicons(
           entry.filename,
-          string.format(display_string, display_filename, coordinates, entry.text),
+          -- string.format(display_string, display_filename, coordinates, entry.text),
           disable_devicons
         )
 
